@@ -4,7 +4,7 @@ const root = createRoot(document.getElementById("root"))
 
 root.render(
   <section>
-    <img src="react-logo.png" width = "40px"></img>
+    <img src="/public/react-logo-icon.png" width = "50px"></img>
     <h1>Fun facts about react</h1>
     <ul>
       <li>Was first released in 2013</li>
