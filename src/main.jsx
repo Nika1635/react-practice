@@ -1,10 +1,11 @@
 import { createRoot } from "react-dom/client"
+import  Header  from "./components/header.jsx"
 
 const root = createRoot(document.getElementById("root"))
 
 root.render(
   <section>
-    <img src="/public/react-logo-icon.png" width = "50px"></img>
+    <Header/>
     <h1>Fun facts about react</h1>
     <ul>
       <li>Was first released in 2013</li>
